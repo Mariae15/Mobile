@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    max-width: 480px;
+    margin: 0 auto; 
+}
+
+h1{
+    font-family: "Cinzel", serif;
+}
+
+p{
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.secao{
+    border: 5px solid #000000;
+    border-radius: 8px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: peru;
+}
+
+#botao{
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: peachpuff;
+    background: linear-gradient(0deg, peachpuff) 0%, rgb(214, 153, 100) 100%);
+    border: none;
+}
+      #botao:before {
+        height: 0%;
+        width: 2px;
+      }
+      #botao:hover {
+        box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                    -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+          inset -4px -4px 6px 0 rgba(255,255,255,.2),
+          inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+      }
